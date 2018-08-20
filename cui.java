@@ -5,8 +5,8 @@ public class cui
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-		String u="shiny";
-		String p="goodgirl";
+		String user="reshetha";
+		String pass="8332012965";
 		int count=0;
 		while(count<3)
 		{
@@ -14,7 +14,7 @@ public class cui
 			String username=sc.nextLine();
 			System.out.println("Enter password");
 			String password=sc.nextLine();
-			if(u.equals(username)&&p.equals(password))
+			if(user.equals(username)&&pass.equals(password))
 			{
 				System.out.println("Welcome"+username);
 				return;

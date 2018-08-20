@@ -16,7 +16,7 @@ public class missing
 		}
 		int x=array.length;
 		total=((x+1)*(x+2))/2;
-		for (int i= 0; i<x; i++)
+		for (int i= 0; i<=x; i++)
 		{
 			total-=array[i];
 		}

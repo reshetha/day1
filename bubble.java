@@ -7,7 +7,7 @@ public class bubble
 		int temp;
 		for(int i=0; i<14; i++)
 		{
-			for(int j=0; i<14-i; i++)
+			for(int j=0; j<14-i; j++)
 			{
 				if(arr[j] > arr[j+1])
 				{

@@ -10,7 +10,7 @@ public class name
   Scanner in = new Scanner(System.in);
 		System.out.println("give the input name");
 		String s=in.nextLine();
-				for(int i=0;i<28;i++)
+				for(int i=0;i<22;i++)
 				{
 					String x=names[i];
 					if(s.equals(x))
