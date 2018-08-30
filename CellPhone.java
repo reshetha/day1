@@ -1,20 +1,19 @@
 package com.capgemini.day6;
 
-public class Television 
-{
+public class CellPhone {
+	
 	private String company;
 	private String model;
-	private String enabled;
+	private String operatingSystem;
 	private double price;
-	public Television() {
+	public CellPhone() {
 		super();
-	
 	}
-	public Television(String company, String model, String enabled, double price) {
+	public CellPhone(String company, String model, String operatingSystem, double price) {
 		super();
 		this.company = company;
 		this.model = model;
-		this.enabled = enabled;
+		this.operatingSystem = operatingSystem;
 		this.price = price;
 	}
 	public String getCompany() {
@@ -29,11 +28,11 @@ public class Television
 	public void setModel(String model) {
 		this.model = model;
 	}
-	public String getEnabled() {
-		return enabled;
+	public String getOperatingSystem() {
+		return operatingSystem;
 	}
-	public void setEnabled(String enabled) {
-		this.enabled = enabled;
+	public void setOperatingSystem(String operatingSystem) {
+		this.operatingSystem = operatingSystem;
 	}
 	public double getPrice() {
 		return price;
@@ -41,4 +40,6 @@ public class Television
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	
+
 }

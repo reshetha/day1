@@ -1,19 +1,23 @@
-package com.capgemini.day5.tests;
+package com.capgemini.day6.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+
 import org.junit.jupiter.api.Test;
+
+import com.capgemini.day6.Student;
 
 class StudentTest {
 
 	@Test
-	void testcalculateStudentWithAge() 
-	{
-		assertEquals(12,Student.calculateAge("1","16","roshny","maths"));
-		assertEquals(11,Student.calculateAge("2","19","sura","physics"));
-		assertEquals(10,Student.)
+	void test() {
+		ArrayList<Student>students=new ArrayList<>();
 		
-		
+		students.add(new Student("rani"));
+		students.add(new Student("pallavi"));
+		students.add(new Student("rita"));
+		students.add(new Student("tina"));
 	}
 
 }
